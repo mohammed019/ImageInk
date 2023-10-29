@@ -23,7 +23,7 @@ export default function ColorList({ rgb, hex }: any) {
             setCopied(false);
           }, 1000);
         }}
-        className={`flex justify-between items-center gap-4 cursor-pointer py-[0.5rem] px-[1rem] w-full absolute bottom-0 border-t-2 border-white/20 font-[600] text-[#02203c] bg-[rgba(255,255,255,0.20)]`}
+        className={`flex justify-between items-center gap-4 cursor-pointer py-[0.5rem] px-[1rem] w-full absolute bottom-0  rounded-lg font-[600] text-white/70 bg-[rgba(255,255,255,0.20)]`}
       >
         {copied ? "Copied!" : hex} <FaCopy className="text-[1rem]" />
       </span>

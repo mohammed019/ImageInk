@@ -14,7 +14,7 @@ export default function DisplayImage({ colors, img }: any) {
 
   return (
     <div className="flex items-center justify-center flex-col gap-[2rem]">
-      <div className="w-[48rem] h-[25rem] flex justify-center items-center border-[#363636] rounded-[0.5rem] transition overflow-hidden hover:shadow-lg">
+      <div className="w-[20rem] h-[10rem] md:w-[48rem] md:h-[25rem] flex justify-center items-center border-[#363636] rounded-[0.5rem] transition overflow-hidden hover:shadow-lg">
         {img ? (
           <Image
             className="object-cover w-full h-full object-center rounded-[0.5rem]"
@@ -27,7 +27,7 @@ export default function DisplayImage({ colors, img }: any) {
       </div>
 
       {colors && (
-        <ul className="grid grid-cols-2 sm:grid-cols-4 gap-4 transition-all">
+        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 transition-all">
           {colors.map((color: any, i: any) => {
             const rgb = `rgb(${color.join(",")})`;
 

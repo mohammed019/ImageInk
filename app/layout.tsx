@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`!${inter.className} h-screen bg-[#1e1e1e] text-xl text-[#777b7f]`}
+        className={`!${inter.className} h-screen bg-[#1e1e1e] text-[#777b7f]`}
       >
         <ImageProvider>
           <Header />
