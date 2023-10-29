@@ -10,7 +10,7 @@ export default function Header() {
   const contextData = useContext(ImageContext);
 
   if (!contextData) {
-    return new Error("Error type");
+    return;
   }
 
   const { setUploaded, uploaded, colors, setColors } = contextData;
