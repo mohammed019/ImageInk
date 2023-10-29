@@ -27,7 +27,7 @@ export default function DisplayImage({ colors, img }: any) {
       </div>
 
       {colors && (
-        <ul>
+        <ul className="grid grid-cols-2 sm:grid-cols-4 gap-4 transition-all">
           {colors.map((color: any, i: any) => {
             const rgb = `rgb(${color.join(",")})`;
 
