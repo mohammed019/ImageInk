@@ -1,3 +1,5 @@
+**Turn images into beautiful color schemes**
+
 ## Getting Started
 
 First, run the development server:
